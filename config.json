@@ -1,0 +1,5 @@
+{
+  "vfs": "vfs_multi.json",
+  "log": "events.xml",
+  "start": "startup_script.txt"
+}

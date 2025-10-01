@@ -1,0 +1,7 @@
+<log>
+  <event time="2025-10-01T12:00:00Z" user="Ян">
+    <command>whoami</command>
+    <args></args>
+  </event>
+  ...
+</log>

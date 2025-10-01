@@ -1,0 +1,27 @@
+{
+  "name": "multi_vfs",
+  "root": {
+    "type": "dir",
+    "children": {
+      "README.md": { "type": "file", "owner": "bob", "content": "UmVhZG1lIHRlc3QK" },
+      "docs": {
+        "type": "dir",
+        "children": {
+          "intro.txt": { "type": "file", "owner": "bob", "content": "SW50cm9kdWN0aW9uIHRleHQuCg==" },
+          "more": {
+            "type": "dir",
+            "children": {
+              "deep.txt": { "type": "file", "owner": "carol", "content": "RGVlcCBjb250ZW50IGxpbmUuCg==" }
+            }
+          }
+        }
+      },
+      "bin": {
+        "type": "dir",
+        "children": {
+          "run.sh": { "type": "file", "owner": "root", "content": "IyEvYmluL2Jhc2gKZWNobyAiUnVubmluZyI=" }
+        }
+      }
+    }
+  }
+}

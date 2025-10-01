@@ -1,0 +1,17 @@
+{
+  "name": "minimal_vfs",
+  "root": {
+    "type": "dir",
+    "children": {
+      "hello.txt": {
+        "type": "file",
+        "owner": "alice",
+        "content": "SGVsbG8gd29ybGQhCg=="
+      },
+      "bin": {
+        "type": "dir",
+        "children": {}
+      }
+    }
+  }
+}
